@@ -89,7 +89,7 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search"
+        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="PESQUISA"
             aria-label="Search">
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
@@ -103,7 +103,7 @@
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
             class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
+            <h1 class="h2">Painel</h1>
             </div>
         </div>
 
