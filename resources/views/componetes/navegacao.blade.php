@@ -1,35 +1,31 @@
 <div class="container-fluid">
     <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-sticky">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3 sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            <span data-feather="home"></span>
-                            Dashboard <span class="sr-only">(atual)</span>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span data-feather="home" class="align-text-bottom"></span>
+                            Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file"></span>
-                            Pedidos
+                            <span data-feather="file" class="align-text-bottom"></span>
+                            Vendas
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="shopping-cart"></span>
+                            <span data-feather="shopping-cart" class="align-text-bottom"></span>
                             Produtos
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="users"></span>
+                            <span data-feather="users" class="align-text-bottom"></span>
                             Clientes
                         </a>
                     </li>
-
-                </ul>
-
-
             </div>
         </nav>
