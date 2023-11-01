@@ -25,7 +25,6 @@
     <link rel="icon" href="{{ asset('icones/favicon.ico') }}">
     <meta name="theme-color" content="#712cf9">
 
-
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
