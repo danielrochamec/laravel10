@@ -13,13 +13,13 @@
             </div>
             
             <a type="button" href="" class="btn btn-success float-end">
-                Incluir Produto
+                ADD Produto
             </a>
 
         </form>
         <div class="table-responsive">
             @if ($findProduto->isEmpty())
-            <p> Não Existe Dados    </p>
+            <p><h4>Não Existe Dados</h4> </p>
             @else
             <table class="table table-striped table-sm">
                 <thead>
@@ -38,7 +38,8 @@
                             <a href="" class="btn btn-light btn-sn">
                                 Editar
                             </a>
-                            <a href="{{route('produto.delete')}}" class="btn btn-danger btn-sn">
+                            <meta name="csrf-token" content="{{ csrf_token() }}">
+                            <a onclick="deleteRegistroPaginacao('{{ route('produto.delete') }}', {{ $produto->id }})" class="btn btn-danger btn-sn">
                                 Excluir
                             </a>
                         </td>
