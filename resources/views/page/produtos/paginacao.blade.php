@@ -12,8 +12,8 @@
                 <button class="btn btn-secondary">Pesquisar</button>
             </div>
             
-            <a type="button" href="" class="btn btn-success float-end">
-                ADD Produto
+            <a type="button" href="{{route('cadastrar.produto')}}" class="btn btn-success float-end">
+                Adicionar Produto
             </a>
 
         </form>

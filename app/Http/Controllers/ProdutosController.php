@@ -28,4 +28,10 @@ class ProdutosController extends Controller
         $buscarRegistro->delete();
         return response()->json(['success' => true]);
     }
+    public function cadastrarProduto(Request $request){
+        if($request->method()== "POST"){ //cria dados
+            dd($request);
+        }
+        return view('page.produtos.create');
+    }
 }
